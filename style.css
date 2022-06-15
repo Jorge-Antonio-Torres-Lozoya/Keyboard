@@ -1,0 +1,65 @@
+body {
+    background-color: aliceblue;
+}
+
+.container-parent {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 90vh;
+
+}
+
+textarea {
+    font-size: 18px;
+    width: 50%;
+    height: 30%;
+}
+
+.container-space {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.container {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.container-background {
+    margin-top: 15px;
+    padding: 5px 5px;
+    background-color: rgba(66, 53, 53, 0.342);
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border: white 2px solid;
+}
+
+.space {
+    background-color: white;
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+}
+.backspace{
+    font-size: 18px;
+    border: black 2px solid;
+}
+.mayus{
+    font-size: 18px;
+    border: black 2px solid;
+}
+.upper{
+    text-transform: uppercase;
+}
